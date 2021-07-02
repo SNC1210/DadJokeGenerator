@@ -6,7 +6,7 @@ get_joke.addEventListener('click',generateJoke);
 generateJoke();
 async function generateJoke(){
     //call the icanhaz API
-    const jokeRes= await fetch('https://icanhazdadjoke.com/j/<joke_id', {
+    const jokeRes= await fetch('https://icanhazdadjoke.com/', {
         headers: {
             'Accept':'application/json'
         }
